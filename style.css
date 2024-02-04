@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Protest+Riot&display=swap');
+
+
+*{margin:0; padding:0;}
+
+body {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: lightpink;
+}
+
+.proposal-container {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.proposal-container h1 { 
+  font-family: 'Protest Riot', sans-serif;
+  color: lightpink;
+  text-shadow: 1px 1px black;
+}
+
+.proposal-buttons {
+  display: flex;
+  justify-content:center;
+  margin-top: 20px;
+}
+
+.proposal-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.proposal-button-yes {
+  margin-right: 10px;
+  background-color: rgb(166, 70, 181);
+  color: #fff;
+}
+
+.proposal-button-no {
+  background-color: rgb(166, 70, 181);
+  color: #fff;
+}
+
+.open {
+  width: 90vw;
+  height:100vh;
+
+}
